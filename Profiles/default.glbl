@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Users/jblee/Downloads/application-54edf123-873e-4ef8-95d9-a7c0dab50bac.apk'</initValue>
+      <name>G_AppFileName</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
