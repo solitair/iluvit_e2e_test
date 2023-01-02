@@ -41,43 +41,43 @@ Mobile.tap(findTestObject('Alert 알림창 - OK 버튼 - android.widget.Button')
 
 Mobile.waitForElementPresent(findTestObject('시설찾기/주변시설 - 헤더 - 시설찾기 텍스트 - android.widget.TextView'), 5)
 
-Mobile.tap(findTestObject('시설찾기/주변시설 - 입학설명회탭 - android.widget.TextView'), 0)
+Mobile.tap(findTestObject('시설찾기/입학설명회탭 - android.widget.TextView'), 0)
 
-Mobile.waitForElementPresent(findTestObject('시설찾기/주변시설 - 입학설명회 - 설명글 - android.widget.TextView'), 0)
+Mobile.waitForElementPresent(findTestObject('시설찾기/입학설명회 - 설명글 - android.widget.TextView'), 0)
 
-Mobile.tap(findTestObject('시설찾기/주변시설 - 입학설명회 - 필터아이콘 - android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('시설찾기/입학설명회 - 필터아이콘 - android.widget.ImageView'), 0)
 
 Mobile.comment('검색필터 모달')
 
-Mobile.waitForElementPresent(findTestObject('시설찾기/주변시설 - 입학설명회 - 검색필터 모달 - 타이틀 - android.widget.TextView'), 0)
+Mobile.waitForElementPresent(findTestObject('시설찾기/입학설명회 - 검색필터 모달 - 타이틀 - android.widget.TextView'), 0)
 
-Mobile.tap(findTestObject('시설찾기/주변시설 - 입학설명회 - 검색필터모달 - 어린이집 태그 - android.widget.TextView'), 0)
+Mobile.tap(findTestObject('시설찾기/입학설명회 - 검색필터모달 - 어린이집 태그 - android.widget.TextView'), 0)
 
-Mobile.tap(findTestObject('시설찾기/주변시설 - 입학설명회 - 검색필터모달 - 청결 태그 - android.widget.TextView'), 0)
+Mobile.tap(findTestObject('시설찾기/입학설명회 - 검색필터모달 - 청결 태그 - android.widget.TextView'), 0)
 
-Mobile.tap(findTestObject('시설찾기/주변시설 - 입학설명회 - 검색필터모달 - 체육 태그 - android.widget.TextView'), 0)
+Mobile.tap(findTestObject('시설찾기/입학설명회 - 검색필터모달 - 체육 태그 - android.widget.TextView'), 0)
 
-Mobile.tap(findTestObject('시설찾기/주변시설 - 입학설명회 - 검색필터모달 - 캠핑 태그 - android.widget.TextView'), 0)
+Mobile.tap(findTestObject('시설찾기/입학설명회 - 검색필터모달 - 캠핑 태그 - android.widget.TextView'), 0)
 
-Mobile.tap(findTestObject('시설찾기/주변시설 - 입학설명회 - 검색필터모달 - 천주교 태그 - android.widget.TextView'), 0)
+Mobile.tap(findTestObject('시설찾기/입학설명회 - 검색필터모달 - 천주교 태그 - android.widget.TextView'), 0)
 
 Mobile.tapAtPosition(300, 1653)
 
-Mobile.tap(findTestObject('시설찾기/주변시설 - 입학설명회 - 검색필터모달 - 닫기 아이콘 - android.widget.TextView'), 0)
+Mobile.tap(findTestObject('시설찾기/입학설명회 - 검색필터모달 - 닫기 아이콘 - android.widget.TextView'), 0)
 
 Mobile.comment('입학설명회 화면')
 
-Mobile.verifyElementNotVisible(findTestObject('시설찾기/주변시설 - 입학설명회 - 어린이집 텍스트 - android.widget.TextView'), 0)
+Mobile.verifyElementNotVisible(findTestObject('시설찾기/입학설명회 - 어린이집 텍스트 - android.widget.TextView'), 0)
 
-Mobile.verifyElementNotVisible(findTestObject('시설찾기/주변시설 - 입학설명회 - 청결 텍스트 - android.widget.TextView'), 0)
+Mobile.verifyElementNotVisible(findTestObject('시설찾기/입학설명회 - 청결 텍스트 - android.widget.TextView'), 0)
 
-Mobile.verifyElementNotVisible(findTestObject('시설찾기/주변시설 - 입학설명회 - 체육 텍스트 - android.widget.TextView'), 0)
+Mobile.verifyElementNotVisible(findTestObject('시설찾기/입학설명회 - 체육 텍스트 - android.widget.TextView'), 0)
 
-Mobile.verifyElementNotVisible(findTestObject('시설찾기/주변시설 - 입학설명회 - 캠핑 텍스트 - android.widget.TextView'), 0)
+Mobile.verifyElementNotVisible(findTestObject('시설찾기/입학설명회 - 캠핑 텍스트 - android.widget.TextView'), 0)
 
-Mobile.verifyElementNotVisible(findTestObject('시설찾기/주변시설 - 입학설명회 - 천주교 텍스트 - android.widget.TextView'), 0)
+Mobile.verifyElementNotVisible(findTestObject('시설찾기/입학설명회 - 천주교 텍스트 - android.widget.TextView'), 0)
 
-Mobile.verifyElementNotVisible(findTestObject('시설찾기/주변시설 - 입학설명회 - 만1세 텍스트 - android.widget.TextView'), 0)
+Mobile.verifyElementNotVisible(findTestObject('시설찾기/입학설명회 - 만1세 텍스트 - android.widget.TextView'), 0)
 
 Mobile.closeApplication()
 
