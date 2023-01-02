@@ -44,7 +44,7 @@ Mobile.waitForElementPresent(findTestObject('이야기/프리뷰 - 아이러빗�
 
 Mobile.verifyElementText(findTestObject('이야기/프리뷰 - 아이러빗어린이집 - 즐겨찾는 게시판 텍스트 - android.widget.TextView'), '즐겨찾는 게시판')
 
-Mobile.tap(findTestObject('홈 탭 - android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('하단 메뉴바 - 홈 탭 - android.widget.ImageView'), 0)
 
 Mobile.comment('홈 화면')
 

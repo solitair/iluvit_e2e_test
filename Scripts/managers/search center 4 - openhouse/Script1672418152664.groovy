@@ -32,7 +32,7 @@ Mobile.tap(findTestObject('Object Repository/로그인/로그인 - 로그인 버
 
 Mobile.comment('홈 화면')
 
-Mobile.tap(findTestObject('시설찾기 탭 - android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('하단 메뉴바 - 시설찾기 탭 - android.widget.ImageView'), 0)
 
 Mobile.comment('시설찾기 화면')
 

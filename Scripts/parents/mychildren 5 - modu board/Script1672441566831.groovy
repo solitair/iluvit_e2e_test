@@ -46,7 +46,7 @@ Mobile.waitForElementPresent(findTestObject('이야기/프리뷰 - 모두의 이
 
 Mobile.verifyElementText(findTestObject('이야기/프리뷰 - 모두의 이야기 - HOT 게시판 텍스트 - android.widget.TextView'), 'HOT 게시판')
 
-Mobile.tap(findTestObject('홈 탭 - android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('하단 메뉴바 - 홈 탭 - android.widget.ImageView'), 0)
 
 Mobile.comment('홈 화면')
 

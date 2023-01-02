@@ -47,7 +47,7 @@ Mobile.waitForElementPresent(findTestObject('시설찾기/주변시설 - 헤더 
 
 Mobile.verifyElementText(findTestObject('시설찾기/주변시설 - 모달 - 광명광성초등학교병설유치원 이름필드 - android.widget.TextView'), '광명광성초등학교병설유치원')
 
-Mobile.tap(findTestObject('홈 탭 - android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('하단 메뉴바 - 홈 탭 - android.widget.ImageView'), 0)
 
 Mobile.comment('홈 화면')
 

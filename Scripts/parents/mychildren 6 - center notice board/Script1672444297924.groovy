@@ -46,7 +46,7 @@ Mobile.waitForElementPresent(findTestObject('이야기/프리뷰 - 아이러빗�
 
 Mobile.verifyElementText(findTestObject('이야기/원보드 - 공지 게시판 타이틀 - android.widget.TextView'), '공지 게시판')
 
-Mobile.tap(findTestObject('홈 탭 - android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('하단 메뉴바 - 홈 탭 - android.widget.ImageView'), 0)
 
 Mobile.comment('홈 화면')
 

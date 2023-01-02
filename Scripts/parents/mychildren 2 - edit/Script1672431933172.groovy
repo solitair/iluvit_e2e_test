@@ -44,7 +44,7 @@ Mobile.waitForElementPresent(findTestObject('마이페이지/우리아이정보 
 
 Mobile.verifyElementText(findTestObject('마이페이지/우리아이정보 - 어린이집 이름 텍스트 - android.widget.TextView'), '아이러빗어린이집')
 
-Mobile.tap(findTestObject('홈 탭 - android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('하단 메뉴바 - 홈 탭 - android.widget.ImageView'), 0)
 
 Mobile.comment('홈 화면')
 
